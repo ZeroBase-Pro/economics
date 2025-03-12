@@ -1,0 +1,22 @@
+Monthly Revenue 500k USDT, FDV Down5x: Final Circulation ≈ 750000000.00 ZB
+Monthly Revenue 500k USDT, FDV Baseline: Final Circulation ≈ 910000000.00 ZB
+Monthly Revenue 500k USDT, FDV Up5x: Final Circulation ≈ 942000000.00 ZB
+Monthly Revenue 1M USDT, FDV Down5x: Final Circulation ≈ 550000000.00 ZB
+Monthly Revenue 1M USDT, FDV Baseline: Final Circulation ≈ 870000000.00 ZB
+Monthly Revenue 1M USDT, FDV Up5x: Final Circulation ≈ 934000000.00 ZB
+Monthly Revenue 5M USDT, FDV Down5x: Final Circulation ≈ -1050000000.00 ZB
+Monthly Revenue 5M USDT, FDV Baseline: Final Circulation ≈ 550000000.00 ZB
+Monthly Revenue 5M USDT, FDV Up5x: Final Circulation ≈ 870000000.00 ZB
+Monthly Revenue 10M USDT, FDV Down5x: Final Circulation ≈ -3050000000.00 ZB
+Monthly Revenue 10M USDT, FDV Baseline: Final Circulation ≈ 150000000.00 ZB
+Monthly Revenue 10M USDT, FDV Up5x: Final Circulation ≈ 790000000.00 ZB
+
+Cumulative release amount for each allocation over 5 years (before burn):
+  team_advisor         => 200000000.00 ZB
+  seed                 => 100000000.00 ZB
+  a_round              => 50000000.00 ZB
+  airdrop_liquidity    => 100000000.00 ZB
+  eco_fund             => 50000000.00 ZB
+  mining               => 50000000.00 ZB
+  early_staking        => 100000000.00 ZB
+  node_staking         => 300000000.00 ZB

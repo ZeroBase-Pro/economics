@@ -222,16 +222,24 @@ for idx, (rev_label, revenue_val) in enumerate(revenue_scenarios.items()):
 
 plt.tight_layout()
 plt.show()
-
+plt.savefig('inflation_rates.png')  # 保存图表
+plt.close()
 # --------------------------
 # 5. Output statistical results: Cumulative release amounts and final supply under example scenarios
 # --------------------------
-for rev_label, revenue_val in revenue_scenarios.items():
-    for fdv_label, fdv_val in fdv_scenarios.items():
-        supply_hist, infl_rates = simulate_supply(revenue_val, fdv_val)
-        final_supply = supply_hist[-1]
-        print(f"Monthly Revenue {rev_label} USDT, FDV {fdv_label}: Final Circulation ≈ {final_supply:.2f} ZB")
+# 创建文本文件来保存结果
+with open('simulation_results.txt', 'w') as f:
+    for rev_label, revenue_val in revenue_scenarios.items():
+        for fdv_label, fdv_val in fdv_scenarios.items():
+            supply_hist, infl_rates = simulate_supply(revenue_val, fdv_val)
+            final_supply = supply_hist[-1]
+            result = f"Monthly Revenue {rev_label} USDT, FDV {fdv_label}: Final Circulation ≈ {final_supply:.2f} ZB\n"
+            f.write(result)
+            print(result, end='')
 
-print("\nCumulative release amount for each allocation over 5 years (before burn):")
-for k, v in categories.items():
-    print(f"  {k:20s} => {sum(v):.2f} ZB")
+    f.write("\nCumulative release amount for each allocation over 5 years (before burn):\n")
+    print("\nCumulative release amount for each allocation over 5 years (before burn):")
+    for k, v in categories.items():
+        result = f"  {k:20s} => {sum(v):.2f} ZB\n"
+        f.write(result)
+        print(result, end='')
