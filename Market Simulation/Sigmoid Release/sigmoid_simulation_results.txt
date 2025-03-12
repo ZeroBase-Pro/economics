@@ -1,0 +1,28 @@
+=== Simulation Results for Sigmoid Release Model ===
+
+Monthly Revenue 0.5M USDT, FDV Down5x: Final Circulation ≈ 750000000.00 ZB
+Monthly Revenue 0.5M USDT, FDV Baseline: Final Circulation ≈ 910000000.00 ZB
+Monthly Revenue 0.5M USDT, FDV Up5x: Final Circulation ≈ 942000000.00 ZB
+Monthly Revenue 1M USDT, FDV Down5x: Final Circulation ≈ 550000000.00 ZB
+Monthly Revenue 1M USDT, FDV Baseline: Final Circulation ≈ 870000000.00 ZB
+Monthly Revenue 1M USDT, FDV Up5x: Final Circulation ≈ 934000000.00 ZB
+Monthly Revenue 5M USDT, FDV Down5x: Final Circulation ≈ -1050000000.00 ZB
+Monthly Revenue 5M USDT, FDV Baseline: Final Circulation ≈ 550000000.00 ZB
+Monthly Revenue 5M USDT, FDV Up5x: Final Circulation ≈ 870000000.00 ZB
+Monthly Revenue 10M USDT, FDV Down5x: Final Circulation ≈ -3050000000.00 ZB
+Monthly Revenue 10M USDT, FDV Baseline: Final Circulation ≈ 150000000.00 ZB
+Monthly Revenue 10M USDT, FDV Up5x: Final Circulation ≈ 790000000.00 ZB
+
+=== Detailed Example: Monthly Revenue=1M USDT, FDV=300M USDT (Baseline) ===
+  Final circulation at month 60 ≈ 870000000.00 ZB
+  Inflation rate at month 60 = 0.56%
+
+Cumulative release amount for each allocation over 5 years (before burn):
+  Team & Advisors      => 200000000.00 ZB
+  Seed Round           => 100000000.00 ZB
+  A Round & ICO        => 50000000.00 ZB
+  Airdrop & Liquidity  => 100000000.00 ZB
+  Ecosystem Fund       => 50000000.00 ZB
+  Proof of Mining      => 50000000.00 ZB
+  Early Staking        => 100000000.00 ZB
+  Node Staking         => 300000000.00 ZB
